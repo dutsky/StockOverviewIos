@@ -18,7 +18,6 @@ struct ContentView: View {
       VStack {
         TextField("Enter Stock Names", text: $stockNames)
         Button("Search") {
-          print(stockNames)
           showFlutter()
         }.buttonStyle(.bordered)
         }
